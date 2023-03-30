@@ -1,0 +1,64 @@
+.appbar_header{
+    background-color: rgb(16, 226, 51) !important;
+}
+
+.Logo1{
+    color: blueviolet !important;
+}
+
+.CardTitle{
+color: aqua;
+
+
+}
+
+.HomeBook :hover{cursor: pointer;
+
+
+}
+
+
+.CardHeader{
+background-color: aqua;
+border-radius: 5px;
+box-shadow: 0px 10px 30px 40px;
+padding: 20px;
+margin-top: 20px;
+width: 20vw;
+height: 20vh;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.StyleH1{
+color: brown;
+font-size: medium;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.StyleDH1{
+color: cadetblue;
+font-size: medium;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.HomeBook{
+display: flex;
+flex-direction: row;
+justify-content: center;
+justify-content: space-between;
+
+}
+.AddBook{ width: 70vh;
+    
+
+
+}
+
+.Addbook_Back{
+background-color: rgb(238, 246, 247);
+margin-top: 10px;
+
+}
