@@ -2,14 +2,15 @@ import React , {useEffect , useState}  from 'react';
 import Header from '../../../Components/Header';
 import BookCard from'../../../Components/BookCard';
 import axios from 'axios';
+import {Grid} from '@mui/material'
+
 
 
 const ViewBook = () => {
-  const [data , setData] =useState([]);
-  console.log('data=>=>' ,data);
+  const [book , setBook] =useState([]);
   const viewAllBookks = async () => {
     await axios.get('http://localhost:8000/save-book-data').then((res) => {
-    if(res){setData(res.data);
+    if(res){setBook(res.data);
     
     }
     
@@ -27,10 +28,20 @@ const ViewBook = () => {
 
 
   return (
-    <div>
+    <>
+    <Grid container>
       <Header/>
-      <BookCard/>
-    </div>
+      {book?.length > 0 && 
+      book?.map((data,index) => {
+        return(
+          <Grid key={index} item sx={{mt:"15px", width:"30%"}}>
+          <BookCard data ={data} />
+          </Grid>
+        )
+      })
+    }
+    </Grid>
+    </>
   )
 }
 
