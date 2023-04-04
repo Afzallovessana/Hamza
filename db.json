@@ -1,0 +1,78 @@
+{
+  "save-book-data": [
+    {
+      "id": 1,
+      "formData": {
+        "author_name": "Afzal",
+        "book_description": "This is our Book",
+        "book_id": 1,
+        "book_name": "Hamza",
+        "cover_img": "Afzalovessana"
+      }
+    },
+    {
+      "book_id": "Afzal1",
+      "book_name": "AfzalKids",
+      "book_description": "Mykids",
+      "author_name": "AfzalSana",
+      "cover_img": "Ourkids",
+      "id": 2
+    },
+    {
+      "book_id": "Afzal2",
+      "book_name": "AfzalKids2",
+      "book_description": "Mykids2",
+      "author_name": "AfzalSana2",
+      "cover_img": "Ourkids2",
+      "id": 3
+    },
+    {
+      "book_id": "Afzal2",
+      "book_name": "AfzalKids2",
+      "book_description": "Mykids2",
+      "author_name": "AfzalSana2",
+      "cover_img": "Ourkids2",
+      "id": 4
+    },
+    {
+      "book_id": "Afzal3",
+      "book_name": "AfzalKids3",
+      "book_description": "Mykids3",
+      "author_name": "AfzalSana3",
+      "cover_img": "Ourkids3",
+      "id": 5
+    },
+    {
+      "book_id": "Afzal3",
+      "book_name": "AfzalKids3",
+      "book_description": "Mykids3",
+      "author_name": "AfzalSana3",
+      "cover_img": "Ourkids3",
+      "id": 6
+    },
+    {
+      "book_id": "Afzal4",
+      "book_name": "AfzalKids4",
+      "book_description": "Mykids4",
+      "author_name": "AfzalSana4",
+      "cover_img": "Ourkids4",
+      "id": 7
+    },
+    {
+      "book_id": "Afzal3",
+      "book_name": "AfzalKids3",
+      "book_description": "Mykids3",
+      "author_name": "AfzalSana3",
+      "cover_img": "Ourkids3",
+      "id": 8
+    },
+    {
+      "book_id": "Afzal3",
+      "book_name": "AfzalKids3",
+      "book_description": "Mykids3",
+      "author_name": "AfzalSana3",
+      "cover_img": "Ourkids3",
+      "id": 9
+    }
+  ]
+}
